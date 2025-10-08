@@ -48,7 +48,7 @@ This system integrates:
 ```bash
 gcc semaphore_simulator.c -o semaphore_simulator.exe
 
-### 🐧 Linux / macOS
+## Compilation — **🐧 Linux / macOS**
 
 Requires MinGW or a compatible Windows API library.
 
