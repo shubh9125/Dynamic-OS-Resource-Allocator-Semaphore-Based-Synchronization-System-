@@ -47,14 +47,42 @@ This system integrates:
 ### 🪟 Windows
 ```bash
 gcc semaphore_simulator.c -o semaphore_simulator.exe
+```
 
-## Compilation — **🐧 Linux / macOS**
+## 🐧 Linux / macOS 
 
 Requires MinGW or a compatible Windows API library.
 
 x86_64-w64-mingw32-gcc semaphore_simulator.c -o semaphore_simulator.exe
 
-## 🚀 Usage
+### 🚀 Usage
 1️⃣ Run the GUI
-python main.py
+-> python main.py
 
+2️⃣ Configure Simulation Parameters
+
+-> Processes → Number of processes to simulate
+-> Algorithm → RR (Round Robin) or FCFS
+-> Quantum (s) → Time slice (for RR)
+-> Max Memory → Total available memory blocks
+
+3️⃣ Start the Simulation
+
+-> Click ▶ Start Simulation in the GUI to:
+-> Compile and execute the C code
+-> Run the simulation
+-> Load the generated logs for visualization
+
+4️⃣ Step Through Execution
+
+-> Use Next Step ⏭ and Prev Step ⏮ buttons to move through snapshots.
+-> Observe CPU/memory usage, waiting processes, and execution order in real-time.
+
+## 📊 GUI Visualization
+Component	                             Description
+Process                                Table	Displays PID, burst time, remaining time, memory allocation, and status.
+CPU                                    Gauge	Visualizes binary semaphore status (Busy or Available).
+Memory                                 Gauge	Shows total and available memory (counting semaphore).
+Gantt Chart	                           Timeline of process execution.
+Contention Metrics                   	 Number of processes waiting for CPU or Memory.
+Performance Report	                   CPU utilization, average waiting & turnaround times.
