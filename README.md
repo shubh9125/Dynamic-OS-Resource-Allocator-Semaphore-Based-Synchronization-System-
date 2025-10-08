@@ -57,6 +57,7 @@ x86_64-w64-mingw32-gcc semaphore_simulator.c -o semaphore_simulator.exe
 
 ### 🚀 Usage
 1️⃣ Run the GUI
+
 -> python main.py
 
 2️⃣ Configure Simulation Parameters
