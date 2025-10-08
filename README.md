@@ -77,12 +77,3 @@ x86_64-w64-mingw32-gcc semaphore_simulator.c -o semaphore_simulator.exe
 
 -> Use Next Step ⏭ and Prev Step ⏮ buttons to move through snapshots.
 -> Observe CPU/memory usage, waiting processes, and execution order in real-time.
-
-## 📊 GUI Visualization
-Component	                             Description
-Process                                Table	Displays PID, burst time, remaining time, memory allocation, and status.
-CPU                                    Gauge	Visualizes binary semaphore status (Busy or Available).
-Memory                                 Gauge	Shows total and available memory (counting semaphore).
-Gantt Chart	                           Timeline of process execution.
-Contention Metrics                   	 Number of processes waiting for CPU or Memory.
-Performance Report	                   CPU utilization, average waiting & turnaround times.
