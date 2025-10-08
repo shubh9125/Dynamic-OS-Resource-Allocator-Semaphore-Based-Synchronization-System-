@@ -47,3 +47,14 @@ This system integrates:
 ### 🪟 Windows
 ```bash
 gcc semaphore_simulator.c -o semaphore_simulator.exe
+
+### 🐧 Linux / macOS
+
+Requires MinGW or a compatible Windows API library.
+
+x86_64-w64-mingw32-gcc semaphore_simulator.c -o semaphore_simulator.exe
+
+## 🚀 Usage
+1️⃣ Run the GUI
+python main.py
+
