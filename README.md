@@ -62,18 +62,25 @@ x86_64-w64-mingw32-gcc semaphore_simulator.c -o semaphore_simulator.exe
 2️⃣ Configure Simulation Parameters
 
 -> Processes → Number of processes to simulate
+
 -> Algorithm → RR (Round Robin) or FCFS
+
 -> Quantum (s) → Time slice (for RR)
+
 -> Max Memory → Total available memory blocks
 
 3️⃣ Start the Simulation
 
 -> Click ▶ Start Simulation in the GUI to:
+
 -> Compile and execute the C code
+
 -> Run the simulation
+
 -> Load the generated logs for visualization
 
 4️⃣ Step Through Execution
 
 -> Use Next Step ⏭ and Prev Step ⏮ buttons to move through snapshots.
+
 -> Observe CPU/memory usage, waiting processes, and execution order in real-time.
